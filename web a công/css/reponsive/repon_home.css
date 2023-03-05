@@ -1,3 +1,4 @@
+/* header */
 .iconMenu>img {
     width: 28px;
     height: 28px;
@@ -71,7 +72,11 @@
     transition: .5s;
 }
 
+/* infor */
+
 @media (max-width:1263px) {
+
+    /* header */
     .nav {
         display: none;
     }
@@ -79,17 +84,33 @@
     .iconMenu>img {
         display: block;
     }
-    .logo{
+
+    .logo {
         padding-left: 10px
     }
-    .mainContentText{
+
+    .mainContentText {
         width: 100%;
         padding-left: 10px;
     }
-    .gallery{
+
+    .gallery {
         display: block;
     }
-    .gallery__column{
+
+    .gallery__column {
         width: 100%;
+    }
+
+    /* infor */
+    .mainContentMedia,
+    .mainContentContact,
+    .mainContentAbout {
+        width: 100%;
+        padding-left: 10px;
+    }
+    /* project */
+    .categoryItem{
+        /* display: block; */
     }
 }
