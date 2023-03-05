@@ -113,23 +113,32 @@ body {
     height: auto;
 }
 
-.mainContentText {
+.mainContentMedia,
+.mainContentContact,
+.mainContentAbout {
     width: 1200px;
     margin: 0 auto;
     color: #bab6af;
 }
 
 .textTitle p {
-    font-size: 30px;
+    font-size: 35px;
+}
+
+.textTitle-1 {
+    padding-top: 20px;
+}
+
+.textTitle-1>p {
+    font-size: 25px;
 }
 
 .textMedia,
 .textContent {
-    font-size: 15px;
+    font-size: 17px;
     width: 99%;
-    padding-top: 40px;
+    padding-top: 20px;
 }
-
 .iconMedia ul {
     display: flex;
     list-style: none;
@@ -140,68 +149,32 @@ body {
     padding-top: 10px;
 }
 
-.iconMedia .hr {
+.mainContentContact .hr,
+.mainContentAbout .hr {
     width: 300px;
     color: #bab6af;
-    padding-top: 20px;
-}
-
-/* mainContentCategories */
-
-.mainContentCategories {
-    padding-top: 20px;
-    width: 95%;
-    margin: auto;
-    color: #bab6af;
-}
-
-.categoryItem {
-    width: 100%;
-    display: flex;
-    background-color: #444444;
-    margin-bottom: 30px;
-    position: relative;
-}
-
-.categoryItemImage {
-    width: 50%;
-    overflow: hidden;
-}
-
-.categoryItemImage img {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-}
-
-.categoryItemText {
-    width:50%;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 20px;
-}
-
-.categoryItemText-1 {
-    font-size: 33px;
-}
-
-.categoryItemText-2 {
-    padding-top: 15px;
-    font-size: 19px;
-}
-
-.categoryItemBtn {
     padding-top: 30px;
 }
 
-.categoryItemBtn>a {
-    font-size: 23px;
+.mainContentContact {
+    padding-top: 20px;
+}
+
+.contact {
+    padding-top: 17px;
+}
+
+.email a {
     text-decoration: none;
     color: #bab6af;
+    font-size: 17px;
 }
 
-.categoryItemBtn>a:hover {
-    color: rgb(107, 106, 104);
-    transition: .6s;
+.Address p,
+.phoneNumber p {
+    font-size: 17px;
+    color: #bab6af;
 }
-
+.mainContentMedia{
+    padding-bottom: 50px;
+}
